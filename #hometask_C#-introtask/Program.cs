@@ -39,6 +39,13 @@ foreach (var num in numbers)
 }
 
 var result = (((sum3 + sum4)*10)+ 7)+ sum5  - (((sum3 * sum3)*10)+1) +sum6;
-
+result -= (sum3 + sum4);
+result /=100;
+result *= 18;
+result /= 100;
+result *= 3;
+result /= 100;
+result *= 1;
+result += sum5;
 
 Console.WriteLine(result);
