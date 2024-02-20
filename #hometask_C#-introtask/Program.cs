@@ -15,12 +15,28 @@ int sum4 = 1;
 foreach ( var num in numbers )
 {
     if(num >999&&num < 10000)
-    { sum4 *= num; }
-
+    { 
+        sum4 *= num;
+    }
 
 }
 int sum5 = 0;
-if (sum5 > 0)
+foreach (var num in numbers)
+{
+    if (num > 99999 && num < 100000)
+    {
+        sum5 += num;
+    }
+}
+
+int sum6 = 0;
+foreach (var num in numbers)
+{
+    if (num >999999&&num<1000000)
+    {
+        sum6 += num; 
+    }
+}
  sum5=sum3+sum4;
 
 
