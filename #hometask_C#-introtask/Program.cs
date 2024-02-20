@@ -37,7 +37,8 @@ foreach (var num in numbers)
         sum6 += num; 
     }
 }
- sum5=sum3+sum4;
+
+var result = (((sum3 + sum4)*10)+ 7)+ sum5  - (((sum3 * sum3)*10)+1) +sum6;
 
 
-Console.WriteLine(sum5);
+Console.WriteLine(result);
